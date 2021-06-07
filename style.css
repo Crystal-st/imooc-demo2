@@ -4,3 +4,23 @@
     list-style: none;
 }
 
+.outerNode{
+    width: 540px;
+    height: 332px;
+}
+
+.videoNode{
+    width: 540px;
+    height: 305px;
+}
+
+.controlsNode{
+    width: 540px;
+    height: 27px;
+}
+.playNode{}
+.loadNode{}
+.timeNode{}
+.volumeNode{}
+.volumeLine{}
+.fullscreenNode{}
