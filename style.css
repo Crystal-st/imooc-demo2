@@ -7,6 +7,11 @@
 .outerNode{
     width: 540px;
     height: 332px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -166px;
+    margin-left: -270px;    
 }
 
 .videoNode{
@@ -17,6 +22,7 @@
 .controlsNode{
     width: 540px;
     height: 27px;
+    background: url(images/ctrs_bg.gif);
 }
 .playNode{}
 .loadNode{}
