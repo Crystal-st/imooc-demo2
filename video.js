@@ -64,5 +64,16 @@ videoNode.addEventListener("timeupdate", function(){
 
 //拖拽进度条按钮
 ctrlNode.onmousedown = function(e){
-    console.log(e.clientX);
-}
+    var ev = e;
+    var l = ev.clientX - this.offsetLeft;
+    
+    document.onmousemove = function(e){
+        var ev = e;
+        var needX = ev.clientX -l;
+        console.log(needX);
+        ctrlNode.style.left = needX + 'px';
+    };
+    document.onmouseup = function(){
+        document.onmousemove =  document.onmouseup = null;
+    };
+};
