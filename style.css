@@ -57,10 +57,10 @@
 }
 .load_line{
     width: 0;
-    height: 7px;
+    height: 8px;
     position: absolute;
     left: 0;
-    top: 1.5px;
+    top: 0.5px;
     background: url(images/line_bg.png);
     border-radius: 3px;
 }
