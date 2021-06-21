@@ -87,7 +87,7 @@
     height: 17px;
     background: url(images/volume_bg.png);
     float: left;
-    margin: 5px 0 0 32px;
+    margin: 5px 0 0 26px;
 }
 .volumeLine{
     width: 100px;
@@ -95,7 +95,7 @@
     background: url(images/volumeLine_bg.png);
     border-radius: 4px;
     float: left;
-    margin: 8.5px 0 0 8px;
+    margin: 8.5px 0 0 14px;
     position: relative;
 }
 .v_DragNode{
@@ -103,7 +103,7 @@
     height: 16px;
     background: url(images/crl_bg.png);
     position: absolute;
-    left: 20px;
+    left: 88px;
     top: -3px;
 }
 .fullscreenNode{
